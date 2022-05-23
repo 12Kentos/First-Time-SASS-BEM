@@ -1,0 +1,26 @@
+.qr-card {
+  width: 32rem;
+  height: 49.7rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__header__img {
+    width: $h1-image-size;
+    height: $h1-image-size;
+    border-radius: 1rem;
+    margin-top: $main-margin;
+    margin-bottom: 2.4rem;
+  }
+
+  &__body__text {
+    width: $h1-image-size;
+    margin-bottom: $main-margin;
+  }
+
+  &__footer__text {
+    width: 25.6rem;
+  }
+}
